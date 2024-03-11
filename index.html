@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia da Mulher</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: rgb(238,174,202);
+            background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+            height: 100vh;
+        }
+
+        .container{
+            background-color:#fff ;
+            padding: 20px;
+            line-height: 40px;
+        }
+
+        .container>h1{
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            
+        }
+
+        .container form{
+            background: rgb(238,174,202);
+            background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px;
+            text-align: center;
+            font-size: 22px;
+        }
+
+        .container form input{
+            margin: 10px 0;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .container a{
+            /* display: block; */
+            text-decoration: none;
+            font-size: 16px;
+            padding:0 15px;
+            border-radius: 5px;
+            background-color: #000;
+            color: #fff;
+            margin: 5px;
+        }
+
+        .btn{
+            display: flex;
+            justify-content: center;
+        }
+
+        .secontTela{
+            display: none;
+            flex-direction: column;
+            max-width: 700px;
+            margin: 10px;
+            background-color: #fff;
+            padding: 15px 15px 30px 15px;
+            border-radius: 15px;
+            position: absolute;
+            z-index: 99;
+        }
+
+        .secontTela>h1{
+            margin: 20px 0;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+
+        .secontTela>p{
+            line-height: 25px;
+            font-size: 18px;
+            opacity: 0.7;
+        }
+
+        .secontTela>div{
+            text-align: center;
+            font-size: 25px;
+        }
+
+       
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>08/03/2024</h1>
+        <form actio ="" autocomplete="off">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name"> <br>
+            
+        </form>
+        <div class="btn">
+            <a href="#" class="woman">Mulher</a>    
+            <a href="#" class="man">Homem</a>
+        </div>
+    </div>
+
+    <div class="secontTela">
+        <div>Olá, <span class="pessoa">--</span></div>
+        <h1>"Feliz Dia Internacional da Mulher!"</h1>
+        <p>NINGUÉM NASCE MULHER: TORNA-SE MULHER!!!!
+            Feliz dia internacional da mulher!!!
+            Para a mulher que sabe ser mulher, que sabe o valor que tem, que sabe se portar, que sabe se impor, que sabe dar amor, que sabe dar valor.......
+            Que sabe ser uma rosa, mas sem esquecer que, também têm espinhos que podem causar dor.....</p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
